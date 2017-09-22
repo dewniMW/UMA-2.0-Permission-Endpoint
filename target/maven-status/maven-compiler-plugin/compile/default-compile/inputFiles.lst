@@ -1,0 +1,14 @@
+/home/dewni/Documents/IntelliJ IDEA projects/UMA/UMA_PermissionEndpoint2/src/main/java/org/wso2/identity/oauth/uma/exception/PermissionAPIException.java
+/home/dewni/Documents/IntelliJ IDEA projects/UMA/UMA_PermissionEndpoint2/src/gen/java/UMA_PermissionEndpoint2/PermissionApiService.java
+/home/dewni/Documents/IntelliJ IDEA projects/UMA/UMA_PermissionEndpoint2/src/gen/java/UMA_PermissionEndpoint2/dto/PTFailDTO.java
+/home/dewni/Documents/IntelliJ IDEA projects/UMA/UMA_PermissionEndpoint2/src/main/java/org/wso2/identity/oauth/uma/dao/SQLQueries.java
+/home/dewni/Documents/IntelliJ IDEA projects/UMA/UMA_PermissionEndpoint2/src/main/java/org/wso2/identity/oauth/uma/model/PermissionTicketTableCreation.java
+/home/dewni/Documents/IntelliJ IDEA projects/UMA/UMA_PermissionEndpoint2/src/gen/java/UMA_PermissionEndpoint2/ApiResponseMessage.java
+/home/dewni/Documents/IntelliJ IDEA projects/UMA/UMA_PermissionEndpoint2/src/main/java/org/wso2/identity/oauth/uma/model/PermissionTicket.java
+/home/dewni/Documents/IntelliJ IDEA projects/UMA/UMA_PermissionEndpoint2/src/gen/java/UMA_PermissionEndpoint2/ApiException.java
+/home/dewni/Documents/IntelliJ IDEA projects/UMA/UMA_PermissionEndpoint2/src/gen/java/UMA_PermissionEndpoint2/dto/ResourceDetailsDTO.java
+/home/dewni/Documents/IntelliJ IDEA projects/UMA/UMA_PermissionEndpoint2/src/main/java/org/wso2/identity/oauth/uma/PermissionApiServiceImpl.java
+/home/dewni/Documents/IntelliJ IDEA projects/UMA/UMA_PermissionEndpoint2/src/gen/java/UMA_PermissionEndpoint2/PermissionApi.java
+/home/dewni/Documents/IntelliJ IDEA projects/UMA/UMA_PermissionEndpoint2/src/gen/java/UMA_PermissionEndpoint2/factories/PermissionApiServiceFactory.java
+/home/dewni/Documents/IntelliJ IDEA projects/UMA/UMA_PermissionEndpoint2/src/main/java/org/wso2/identity/oauth/uma/dao/PermissionTicketDAO.java
+/home/dewni/Documents/IntelliJ IDEA projects/UMA/UMA_PermissionEndpoint2/src/gen/java/UMA_PermissionEndpoint2/dto/PTSuccessDTO.java
