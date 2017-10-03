@@ -1,0 +1,11 @@
+org/wso2/carbon/identity/oauth/uma/endpoint/dto/PTFailDTO.class
+org/wso2/carbon/identity/oauth/uma/endpoint/exception/PermissionEndpointException.class
+org/wso2/carbon/identity/oauth/uma/endpoint/dto/ResourceDetailsDTO.class
+org/wso2/carbon/identity/oauth/uma/endpoint/PermissionApi.class
+org/wso2/carbon/identity/oauth/uma/endpoint/ApiException.class
+org/wso2/carbon/identity/oauth/uma/endpoint/ApiResponseMessage.class
+org/wso2/carbon/identity/oauth/uma/endpoint/PermissionApiServiceImpl.class
+org/wso2/carbon/identity/oauth/uma/endpoint/factories/PermissionApiServiceFactory.class
+org/wso2/carbon/identity/oauth/uma/endpoint/PermissionApiService.class
+org/wso2/carbon/identity/oauth/uma/endpoint/dto/ResourceDetailsInnerDTO.class
+org/wso2/carbon/identity/oauth/uma/endpoint/dto/PTSuccessDTO.class

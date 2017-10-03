@@ -6,11 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="UMA_PermissionEndpoint2" />
+        <module name="uma-permission-endpoint" />
+        <module name="uma-permission-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="UMA_PermissionEndpoint2" target="1.7" />
+      <module name="uma-permission" target="1.5" />
+      <module name="uma-permission-endpoint" target="1.7" />
+      <module name="uma-permission-service" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

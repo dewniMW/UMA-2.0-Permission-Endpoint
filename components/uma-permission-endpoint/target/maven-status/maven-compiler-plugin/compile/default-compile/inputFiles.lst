@@ -1,0 +1,11 @@
+/home/dewni/Documents/IntelliJ IDEA projects/UMA/uma-permission/components/uma-permission-endpoint/src/gen/java/org/wso2/carbon/identity/oauth/uma/endpoint/ApiResponseMessage.java
+/home/dewni/Documents/IntelliJ IDEA projects/UMA/uma-permission/components/uma-permission-endpoint/src/gen/java/org/wso2/carbon/identity/oauth/uma/endpoint/dto/ResourceDetailsDTO.java
+/home/dewni/Documents/IntelliJ IDEA projects/UMA/uma-permission/components/uma-permission-endpoint/src/gen/java/org/wso2/carbon/identity/oauth/uma/endpoint/ApiException.java
+/home/dewni/Documents/IntelliJ IDEA projects/UMA/uma-permission/components/uma-permission-endpoint/src/gen/java/org/wso2/carbon/identity/oauth/uma/endpoint/dto/PTSuccessDTO.java
+/home/dewni/Documents/IntelliJ IDEA projects/UMA/uma-permission/components/uma-permission-endpoint/src/gen/java/org/wso2/carbon/identity/oauth/uma/endpoint/dto/ResourceDetailsInnerDTO.java
+/home/dewni/Documents/IntelliJ IDEA projects/UMA/uma-permission/components/uma-permission-endpoint/src/gen/java/org/wso2/carbon/identity/oauth/uma/endpoint/PermissionApiService.java
+/home/dewni/Documents/IntelliJ IDEA projects/UMA/uma-permission/components/uma-permission-endpoint/src/main/java/org/wso2/carbon/identity/oauth/uma/endpoint/exception/PermissionEndpointException.java
+/home/dewni/Documents/IntelliJ IDEA projects/UMA/uma-permission/components/uma-permission-endpoint/src/gen/java/org/wso2/carbon/identity/oauth/uma/endpoint/factories/PermissionApiServiceFactory.java
+/home/dewni/Documents/IntelliJ IDEA projects/UMA/uma-permission/components/uma-permission-endpoint/src/gen/java/org/wso2/carbon/identity/oauth/uma/endpoint/PermissionApi.java
+/home/dewni/Documents/IntelliJ IDEA projects/UMA/uma-permission/components/uma-permission-endpoint/src/main/java/org/wso2/carbon/identity/oauth/uma/endpoint/PermissionApiServiceImpl.java
+/home/dewni/Documents/IntelliJ IDEA projects/UMA/uma-permission/components/uma-permission-endpoint/src/gen/java/org/wso2/carbon/identity/oauth/uma/endpoint/dto/PTFailDTO.java

@@ -1,0 +1,11 @@
+org/wso2/carbon/identity/oauth/uma/service/dao/SQLQueries.class
+org/wso2/carbon/identity/oauth/uma/service/internal/PermissionServiceComponent.class
+org/wso2/carbon/identity/oauth/uma/service/PermissionService.class
+org/wso2/carbon/identity/oauth/uma/service/model/Resource.class
+org/wso2/carbon/identity/oauth/uma/service/model/ResourceScope.class
+org/wso2/carbon/identity/oauth/uma/service/model/PermissionTicket.class
+org/wso2/carbon/identity/oauth/uma/service/exception/PermissionAPIException.class
+org/wso2/carbon/identity/oauth/uma/service/impl/PermissionServiceImpl.class
+org/wso2/carbon/identity/oauth/uma/service/model/PermissionTicketImpl.class
+org/wso2/carbon/identity/oauth/uma/service/exception/PermissionTicketDAOException.class
+org/wso2/carbon/identity/oauth/uma/service/dao/PermissionTicketDAO.class

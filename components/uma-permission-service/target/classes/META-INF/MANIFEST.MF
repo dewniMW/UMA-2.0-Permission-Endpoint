@@ -1,0 +1,33 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1506993796988
+Build-Jdk: 1.8.0_131
+Built-By: dewni
+Bundle-Description: WSO2 is an open source application development softw
+ are company focused on providing service-oriented        architecture s
+ olutions for professional developers.
+Bundle-DocURL: http://www.wso2.org/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: uma-permission-service
+Bundle-SymbolicName: uma-permission-service
+Bundle-Vendor: WSO2
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.wso2.carbon.identity.oauth.uma.service;version="1.0.
+ 0.SNAPSHOT";uses:="org.wso2.carbon.identity.oauth.uma.service.exception
+ ,org.wso2.carbon.identity.oauth.uma.service.model",org.wso2.carbon.iden
+ tity.oauth.uma.service.dao;version="1.0.0.SNAPSHOT";uses:="org.wso2.car
+ bon.identity.oauth.uma.service.exception,org.wso2.carbon.identity.oauth
+ .uma.service.model",org.wso2.carbon.identity.oauth.uma.service.exceptio
+ n;version="1.0.0.SNAPSHOT",org.wso2.carbon.identity.oauth.uma.service.i
+ mpl;version="1.0.0.SNAPSHOT";uses:="org.wso2.carbon.identity.oauth.uma.
+ service,org.wso2.carbon.identity.oauth.uma.service.exception,org.wso2.c
+ arbon.identity.oauth.uma.service.model",org.wso2.carbon.identity.oauth.
+ uma.service.model;version="1.0.0.SNAPSHOT"
+Import-Package: org.wso2.carbon.identity.core.util;version="[5.8,6)",org
+ .osgi.framework;version="[1.7,2)",org.osgi.service.component;version="[
+ 1.2,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Service-Component: OSGI-INF/org.wso2.carbon.identity.oauth.uma.service.i
+ nternal.PermissionServiceComponent.xml
+Tool: Bnd-3.3.0.201609221906

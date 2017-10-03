@@ -1,0 +1,11 @@
+/home/dewni/Documents/IntelliJ IDEA projects/UMA/uma-permission/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/PermissionService.java
+/home/dewni/Documents/IntelliJ IDEA projects/UMA/uma-permission/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/dao/PermissionTicketDAO.java
+/home/dewni/Documents/IntelliJ IDEA projects/UMA/uma-permission/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/model/ResourceScope.java
+/home/dewni/Documents/IntelliJ IDEA projects/UMA/uma-permission/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/model/Resource.java
+/home/dewni/Documents/IntelliJ IDEA projects/UMA/uma-permission/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/impl/PermissionServiceImpl.java
+/home/dewni/Documents/IntelliJ IDEA projects/UMA/uma-permission/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/model/PermissionTicketImpl.java
+/home/dewni/Documents/IntelliJ IDEA projects/UMA/uma-permission/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/internal/PermissionServiceComponent.java
+/home/dewni/Documents/IntelliJ IDEA projects/UMA/uma-permission/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/exception/PermissionTicketDAOException.java
+/home/dewni/Documents/IntelliJ IDEA projects/UMA/uma-permission/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/model/PermissionTicket.java
+/home/dewni/Documents/IntelliJ IDEA projects/UMA/uma-permission/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/exception/PermissionAPIException.java
+/home/dewni/Documents/IntelliJ IDEA projects/UMA/uma-permission/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/dao/SQLQueries.java

@@ -1,9 +1,258 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94a09fd4-6129-47e4-bdbe-6f3510ddcb2f" name="Default" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
+    <list default="true" id="9e8a574f-40d2-40c8-ac36-b5a8c5e39322" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/uma-permission-endpoint/src/main/resources/uma_tables.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/PermissionService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/dao/PermissionTicketDAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/dao/SQLQueries.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/impl/PermissionServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/internal/PermissionServiceComponent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/model/PermissionTicket.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/model/ResourceScope.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/UMA_PermissionEndpoint2_war.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/UMA_PermissionEndpoint2_war_exploded.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/04961407-0f66-4982-8559-9ae0049c2e0a.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_wso2_carbon_identity_framework_org_wso2_carbon_identity_base_5_8_33.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_wso2_carbon_identity_framework_org_wso2_carbon_identity_core_5_8_33.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UMA_PermissionEndpoint2.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/gen/java/UMA_PermissionEndpoint2/ApiException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/gen/java/UMA_PermissionEndpoint2/ApiResponseMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/gen/java/UMA_PermissionEndpoint2/PermissionApi.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/gen/java/UMA_PermissionEndpoint2/PermissionApiService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/gen/java/UMA_PermissionEndpoint2/dto/PTFailDTO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/gen/java/UMA_PermissionEndpoint2/dto/PTSuccessDTO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/gen/java/UMA_PermissionEndpoint2/dto/ResourceDetailsDTO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/gen/java/UMA_PermissionEndpoint2/factories/PermissionApiServiceFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/wso2/identity/oauth/uma/dao/PermissionTicketDAO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/wso2/identity/oauth/uma/dao/SQLQueries.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/wso2/identity/oauth/uma/exception/PermissionAPIException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/permission_endpoint.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/uma_tables.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/beans.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/classes/UMA_PermissionEndpoint2/ApiException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/classes/UMA_PermissionEndpoint2/ApiResponseMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/classes/UMA_PermissionEndpoint2/PermissionApi.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/classes/UMA_PermissionEndpoint2/PermissionApiService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/classes/UMA_PermissionEndpoint2/dto/PTFailDTO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/classes/UMA_PermissionEndpoint2/dto/PTSuccessDTO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/classes/UMA_PermissionEndpoint2/dto/ResourceDetailsDTO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/classes/UMA_PermissionEndpoint2/factories/PermissionApiServiceFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/classes/org/wso2/identity/oauth/uma/PermissionApiServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/classes/org/wso2/identity/oauth/uma/dao/PermissionTicketDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/classes/org/wso2/identity/oauth/uma/dao/SQLQueries.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/classes/org/wso2/identity/oauth/uma/exception/PermissionAPIException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/classes/org/wso2/identity/oauth/uma/model/PermissionTicket.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/classes/org/wso2/identity/oauth/uma/model/PermissionTicketTableCreation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/classes/permission_endpoint.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/XmlSchema-1.4.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/XmlSchema-1.4.7.wso2v3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/abdera-1.0.0.wso2v3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/annotations-1.3.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/annotations-2.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/ant-1.7.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/ant-1.7.0.wso2v1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/ant-launcher-1.7.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/axiom-1.2.11.wso2v10.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/axiom-api-1.2.11.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/axiom-impl-1.2.11.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/axis2-1.6.1.wso2v12.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/axis2-kernel-1.6.1-wso2v17.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/bcprov-ext-jdk15-1.40.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/bcprov-jdk15on-1.52.0.wso2v1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/bcprov-jdk15on-1.52.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/commons-cli-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/commons-collections-3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/commons-collections-3.2.0.wso2v1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/commons-collections-3.2.2.wso2v1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/commons-dbcp-1.4.0.wso2v1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.3.2.wso2v1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/commons-httpclient-3.1.0.wso2v3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/commons-httpclient-3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/commons-io-2.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/commons-io-2.4.0.wso2v1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/commons-lang-2.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/commons-lang-2.6.0.wso2v1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/commons-lang3-3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/commons-pool-1.5.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/commons-pool-1.5.6.wso2v1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/compass-2.0.1.wso2v2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/cxf-core-3.1.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/cxf-rt-frontend-jaxrs-3.1.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/cxf-rt-rs-service-description-3.1.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/cxf-rt-transports-http-3.1.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/dom4j-1.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/geronimo-activation_1.1_spec-1.0.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/geronimo-javamail_1.4_spec-1.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/geronimo-jta_1.1_spec-1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/geronimo-stax-api_1.0_spec-1.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/geronimo-stax-api_1.0_spec-1.0.1.wso2v2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/geronimo-ws-metadata_2.0_spec-1.1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/guava-18.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/hazelcast-3.5.4.wso2v2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/hazelcast-all-3.5.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/httpcore-4.3.3.wso2v1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/icu4j-2.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.4.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.4.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-asl-1.8.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.4.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/jackson-dataformat-xml-2.4.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/jackson-dataformat-yaml-2.4.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/jackson-datatype-joda-2.4.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/jackson-jaxrs-1.8.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/jackson-jaxrs-base-2.4.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/jackson-jaxrs-json-provider-2.4.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/jackson-mapper-asl-1.8.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/jackson-module-jaxb-annotations-2.4.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/jargs-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.18.2-GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/javax.annotation-api-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/javax.cache.wso2-4.4.11.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/javax.servlet-3.0.0.v201112011016.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/javax.ws.rs-api-2.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/jaxen-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/jcip-annotations-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/jcl-over-slf4j-1.5.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/jdbc-pool-7.0.34.wso2v2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/jdom-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/jline-0.9.94.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/joda-time-2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/joda-time-2.8.2.wso2v1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/jsr311-api-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.14.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.wso2v1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/log4j-over-slf4j-1.5.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/neethi-2.0.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/neethi-2.0.4.wso2v5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/not-yet-commons-ssl-0.3.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/opensaml-2.2.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/opensaml-2.6.4.wso2v3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/opensaml1-1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/openws-1.2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/org.eclipse.equinox.http.helper-1.1.0.wso2v1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/org.eclipse.osgi-3.9.1.v20130814-1242.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/org.eclipse.osgi.services-3.3.100.v20130513-1956.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/org.wso2.carbon.base-4.4.11.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/org.wso2.carbon.bootstrap-4.4.11.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/org.wso2.carbon.core-4.4.11.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/org.wso2.carbon.identity.base-5.8.33.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/org.wso2.carbon.identity.core-5.8.33.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/org.wso2.carbon.logging-4.4.11.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/org.wso2.carbon.queuing-4.4.11.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/org.wso2.carbon.registry.api-4.4.11.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/org.wso2.carbon.registry.core-4.4.11.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/org.wso2.carbon.registry.xboot-4.4.11.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/org.wso2.carbon.securevault-4.4.11.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/org.wso2.carbon.tenant.common-4.5.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/org.wso2.carbon.user.api-4.4.11.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/org.wso2.carbon.user.core-4.4.11.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/org.wso2.carbon.utils-4.4.11.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/org.wso2.securevault-1.0.0-wso2v2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/rampart-core-1.6.1.wso2v24.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/reflections-0.9.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/resolver-2.9.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/serializer-2.9.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/servlet-api-2.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.6.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/smack-3.0.4.wso2v1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/smackx-3.0.4.wso2v1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/snakeyaml-1.12.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.1.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.1.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.1.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.1.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.1.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.1.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/stax-api-1.0-2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/stax2-api-3.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/swagger-annotations-1.5.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/swagger-core-1.5.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/swagger-jaxrs-1.5.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/swagger-models-1.5.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/tomcat-annotations-api-7.0.73.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/tomcat-api-7.0.73.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/tomcat-catalina-7.0.73.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/tomcat-catalina-ha-7.0.73.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/tomcat-jdbc-7.0.47.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/tomcat-juli-7.0.73.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/tomcat-tribes-7.0.73.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/tomcat-util-7.0.73.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/validation-api-1.1.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/velocity-1.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/woden-api-1.0M9.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/woden-impl-commons-1.0M9.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/woden-impl-dom-1.0M9.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/woodstox-core-asl-4.4.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/wrapper-3.2.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/wsdl4j-1.6.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/wsdl4j-1.6.2.wso2v4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/wss4j-1.5.11.wso2v16.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/wstx-asl-3.2.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/xalan-2.6.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/xalan-2.7.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/xercesImpl-2.6.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/xercesImpl-2.8.1.wso2v2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/xercesImpl-2.9.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/xml-apis-1.3.02.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/xml-apis-2.9.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/xmlParserAPIs-2.6.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/xmlschema-core-2.2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/xmlsec-1.4.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/xmltooling-1.2.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/lib/xom-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/UMA_PermissionEndpoint2-1.0-SNAPSHOT/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/UMA_PermissionEndpoint2/ApiException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/UMA_PermissionEndpoint2/ApiResponseMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/UMA_PermissionEndpoint2/PermissionApi.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/UMA_PermissionEndpoint2/PermissionApiService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/UMA_PermissionEndpoint2/dto/PTFailDTO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/UMA_PermissionEndpoint2/dto/PTSuccessDTO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/UMA_PermissionEndpoint2/dto/ResourceDetailsDTO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/UMA_PermissionEndpoint2/factories/PermissionApiServiceFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/wso2/identity/oauth/uma/PermissionApiServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/wso2/identity/oauth/uma/dao/PermissionTicketDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/wso2/identity/oauth/uma/dao/SQLQueries.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/wso2/identity/oauth/uma/exception/PermissionAPIException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/wso2/identity/oauth/uma/model/PermissionTicket.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/wso2/identity/oauth/uma/model/PermissionTicketTableCreation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/permission_endpoint.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/sample_permission_endpoint2.war" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/META-INF/NOTICE" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/wso2/identity/oauth/uma/PermissionApiServiceImpl.java" afterPath="$PROJECT_DIR$/components/uma-permission-endpoint/src/main/java/org/wso2/carbon/identity/oauth/uma/endpoint/PermissionApiServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/wso2/identity/oauth/uma/model/PermissionTicket.java" afterPath="$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/model/PermissionTicketImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" afterPath="$PROJECT_DIR$/components/uma-permission-endpoint/src/main/webapp/WEB-INF/beans.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/components/uma-permission-endpoint/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" afterPath="$PROJECT_DIR$/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-shared-archive-resources/META-INF/NOTICE" afterPath="$PROJECT_DIR$/target/maven-shared-archive-resources/META-INF/NOTICE" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/components/uma-permission-service/target/" />
+    <ignored path="$PROJECT_DIR$/components/uma-permission-endpoint/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +274,7 @@
         <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
-        <option name="myItemId" value="WSO2CARBON_DB" />
+        <option name="myItemId" value="WSO2CARBON_DB [2]" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
@@ -35,7 +284,7 @@
         <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
-        <option name="myItemId" value="WSO2CARBON_DB" />
+        <option name="myItemId" value="WSO2CARBON_DB [2]" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
@@ -53,7 +302,73 @@
         <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
+        <option name="myItemId" value="WSO2CARBON_DB [2]" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
         <option name="myItemId" value="WSO2CARBON_DB" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="PUBLIC" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="IDN_RESOURCE_SCOPE" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="WSO2CARBON_DB [2]" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="WSO2CARBON_DB" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="PUBLIC" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="IDN_RESOURCE" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="WSO2CARBON_DB [2]" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="WSO2CARBON_DB" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="PUBLIC" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="IDN_PERMISSION_TICKET" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="WSO2CARBON_DB [2]" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
@@ -69,217 +384,137 @@
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="WSO2CARBON_DB" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="WSO2CARBON_DB" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="PUBLIC" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="IDN_OAUTH2_ACCESS_TOKEN" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="WSO2CARBON_DB" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="WSO2CARBON_DB" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="PUBLIC" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="IDN_OAUTH1A_REQUEST_TOKEN" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="WSO2CARBON_DB" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="WSO2CARBON_DB" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="PUBLIC" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="IDN_IDENTITY_META_DATA" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="WSO2CARBON_DB" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="WSO2CARBON_DB" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="PUBLIC" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="IDN_AUTH_SESSION_STORE" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="WSO2CARBON_DB" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="WSO2CARBON_DB" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="PUBLIC" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="IDN_ASSOCIATED_ID" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="WSO2CARBON_DB" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="WSO2CARBON_DB" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="PUBLIC" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="FIDO_DEVICE_STORE" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PermissionTicketDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/identity/oauth/uma/dao/PermissionTicketDAO.java">
+      <file leaf-file-name="PermissionApiServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/uma-permission-endpoint/src/main/java/org/wso2/carbon/identity/oauth/uma/endpoint/PermissionApiServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PermissionTicketTableCreation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/identity/oauth/uma/model/PermissionTicketTableCreation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="35" column="5" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PermissionTicket.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/identity/oauth/uma/model/PermissionTicket.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-              <folding>
-                <element signature="e#408#409#0" expanded="true" />
-                <element signature="e#437#438#0" expanded="true" />
-                <element signature="e#481#482#0" expanded="true" />
-                <element signature="e#517#518#0" expanded="true" />
-                <element signature="e#557#558#0" expanded="true" />
-                <element signature="e#591#592#0" expanded="true" />
-                <element signature="e#647#648#0" expanded="true" />
-                <element signature="e#693#694#0" expanded="true" />
-                <element signature="e#736#737#0" expanded="true" />
-                <element signature="e#773#774#0" expanded="true" />
-                <element signature="e#835#836#0" expanded="true" />
-                <element signature="e#887#888#0" expanded="true" />
-                <element signature="e#920#921#0" expanded="true" />
-                <element signature="e#949#950#0" expanded="true" />
-                <element signature="e#993#994#0" expanded="true" />
-                <element signature="e#1029#1030#0" expanded="true" />
-                <element signature="e#1070#1071#0" expanded="true" />
-                <element signature="e#1104#1105#0" expanded="true" />
-                <element signature="e#1161#1162#0" expanded="true" />
-                <element signature="e#1207#1208#0" expanded="true" />
-                <element signature="e#1246#1247#0" expanded="true" />
-                <element signature="e#1283#1284#0" expanded="true" />
-                <element signature="e#1341#1342#0" expanded="true" />
-                <element signature="e#1393#1394#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PermissionAPIException.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/identity/oauth/uma/exception/PermissionAPIException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="346">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SQLQueries.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/identity/oauth/uma/dao/SQLQueries.java">
+      <file leaf-file-name="ApiException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/uma-permission-endpoint/src/gen/java/org/wso2/carbon/identity/oauth/uma/endpoint/ApiException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="28" column="53" lean-forward="false" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+            <state relative-caret-position="36">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResourceDetailsDTO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/uma-permission-endpoint/src/gen/java/org/wso2/carbon/identity/oauth/uma/endpoint/dto/ResourceDetailsDTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PTSuccessDTO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/uma-permission-endpoint/src/gen/java/org/wso2/carbon/identity/oauth/uma/endpoint/dto/PTSuccessDTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-11">
+              <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#478#479#0" expanded="false" />
+                <element signature="e#501#502#0" expanded="false" />
+                <element signature="e#542#543#0" expanded="false" />
+                <element signature="e#572#573#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PTFailDTO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/uma-permission-endpoint/src/gen/java/org/wso2/carbon/identity/oauth/uma/endpoint/dto/PTFailDTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-11">
+              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#442#443#0" expanded="false" />
+                <element signature="e#464#465#0" expanded="false" />
+                <element signature="e#503#504#0" expanded="false" />
+                <element signature="e#531#532#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PermissionApiService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/uma-permission-endpoint/src/gen/java/org/wso2/carbon/identity/oauth/uma/endpoint/PermissionApiService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResourceDetailsInnerDTO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/uma-permission-endpoint/src/gen/java/org/wso2/carbon/identity/oauth/uma/endpoint/dto/ResourceDetailsInnerDTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="39" column="19" lean-forward="false" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#376#384#0" expanded="false" />
+                <element signature="e#1153#1154#0" expanded="false" />
+                <element signature="e#1185#1186#0" expanded="false" />
+                <element signature="e#1250#1251#0" expanded="false" />
+                <element signature="e#1298#1299#0" expanded="false" />
+                <element signature="e#1810#1811#0" expanded="false" />
+                <element signature="e#1838#1839#0" expanded="false" />
+                <element signature="e#1889#1890#0" expanded="false" />
+                <element signature="e#1929#1930#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PermissionApi.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/uma-permission-endpoint/src/gen/java/org/wso2/carbon/identity/oauth/uma/endpoint/PermissionApi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PermissionServiceComponent.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/internal/PermissionServiceComponent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="11" column="60" lean-forward="false" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PermissionService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/PermissionService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -289,20 +524,28 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>h</find>
-      <find>htt</find>
-      <find>http</find>
-      <find>@Path</find>
+      <find>packag</find>
+      <find>PermissionApiServiceImpl</find>
+      <find>PTSuccessDTO</find>
+      <find>resourceList</find>
+      <find>d</find>
+      <find>dt</find>
+      <find>dto</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/components/uma-permission-service</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -312,28 +555,30 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/permission_endpoint.yaml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/org/wso2/identity/oauth/uma/PermissionApiServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/wso2/identity/oauth/uma/exception/PermissionAPIException.java" />
-        <option value="dbtable:/10e34a93/04961407-0f66-4982-8559-9ae0049c2e0a/WSO2CARBON_DB.PUBLIC.IDN_OAUTH2_ACCESS_TOKEN" />
-        <option value="dbtable:/10e34a93/04961407-0f66-4982-8559-9ae0049c2e0a/WSO2CARBON_DB.PUBLIC.IDN_CLAIM_DIALECT" />
-        <option value="dbtable:/10e34a93/04961407-0f66-4982-8559-9ae0049c2e0a/WSO2CARBON_DB.PUBLIC.FIDO_DEVICE_STORE" />
-        <option value="dbtable:/10e34a93/04961407-0f66-4982-8559-9ae0049c2e0a/WSO2CARBON_DB.PUBLIC.IDN_ASSOCIATED_ID" />
-        <option value="dbtable:/10e34a93/04961407-0f66-4982-8559-9ae0049c2e0a/WSO2CARBON_DB.PUBLIC.IDN_AUTH_SESSION_STORE" />
-        <option value="dbtable:/10e34a93/04961407-0f66-4982-8559-9ae0049c2e0a/WSO2CARBON_DB.PUBLIC.IDN_BASE_TABLE" />
-        <option value="dbtable:/10e34a93/04961407-0f66-4982-8559-9ae0049c2e0a/WSO2CARBON_DB.PUBLIC.IDN_CLAIM" />
-        <option value="dbtable:/10e34a93/04961407-0f66-4982-8559-9ae0049c2e0a/WSO2CARBON_DB.PUBLIC.IDN_CLAIM_MAPPED_ATTRIBUTE" />
-        <option value="dbtable:/10e34a93/04961407-0f66-4982-8559-9ae0049c2e0a/WSO2CARBON_DB.PUBLIC.IDN_CLAIM_MAPPING" />
-        <option value="dbtable:/10e34a93/04961407-0f66-4982-8559-9ae0049c2e0a/WSO2CARBON_DB.PUBLIC.IDN_CLAIM_PROPERTY" />
-        <option value="dbtable:/10e34a93/04961407-0f66-4982-8559-9ae0049c2e0a/WSO2CARBON_DB.PUBLIC.IDN_IDENTITY_META_DATA" />
-        <option value="dbtable:/10e34a93/04961407-0f66-4982-8559-9ae0049c2e0a/WSO2CARBON_DB.PUBLIC.IDN_OAUTH1A_ACCESS_TOKEN" />
-        <option value="dbtable:/10e34a93/04961407-0f66-4982-8559-9ae0049c2e0a/WSO2CARBON_DB.PUBLIC.IDN_OAUTH1A_REQUEST_TOKEN" />
-        <option value="dbtable:/10e34a93/04961407-0f66-4982-8559-9ae0049c2e0a/WSO2CARBON_DB.PUBLIC.IDN_OAUTH2_SCOPE" />
-        <option value="$PROJECT_DIR$/src/main/java/org/wso2/identity/oauth/uma/model/PermissionTicketTableCreation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/wso2/identity/oauth/uma/dao/PermissionTicketDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/wso2/identity/oauth/uma/dao/SQLQueries.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/wso2/identity/oauth/uma/model/PermissionTicket.java" />
+        <option value="$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/identity/uma/exception/PermissionTicketDAOException.java" />
+        <option value="$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/identity/uma/exception/PermissionAPIException.java" />
+        <option value="$PROJECT_DIR$/components/uma-permission-endpoint/src/main/java/org/wso2/identity/oauth/uma/exception/PermissionEndpointException.java" />
+        <option value="$PROJECT_DIR$/components/uma-permission-endpoint/src/main/java/org/wso2/identity/oauth/uma/endpoint/exception/PermissionEndpointException.java" />
+        <option value="$PROJECT_DIR$/components/uma-permission-endpoint/src/main/java/org/wso2/identity/oauth/uma/endpoint/PermissionApiServiceImpl.java" />
+        <option value="$PROJECT_DIR$/components/uma-permission-endpoint/src/gen/java/org/wso2/identity/oauth/uma/endpoint/PermissionApi.java" />
+        <option value="$PROJECT_DIR$/components/uma-permission-endpoint/src/gen/java/org/wso2/identity/oauth/uma/endpoint/PermissionApiService.java" />
+        <option value="$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/identity/oauth/uma/service/model/Resource.java" />
+        <option value="$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/identity/oauth/uma/service/model/ResourceScope.java" />
+        <option value="$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/identity/oauth/uma/service/dao/PermissionTicketDAO.java" />
+        <option value="$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/identity/oauth/uma/service/PermissionService.java" />
+        <option value="$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/identity/oauth/uma/service/impl/PermissionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/identity/oauth/uma/service/internal/PermissionServiceComponent.java" />
+        <option value="$PROJECT_DIR$/components/uma-permission-endpoint/src/main/webapp/WEB-INF/beans.xml" />
+        <option value="$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/PermissionService.java" />
+        <option value="$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/impl/PermissionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/components/uma-permission-service/pom.xml" />
+        <option value="$PROJECT_DIR$/components/uma-permission-endpoint/src/main/java/org/wso2/carbon/identity/oauth/uma/endpoint/internal/PermissionEndpointComponent.java" />
+        <option value="$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/internal/PermissionServiceComponent.java" />
+        <option value="$PROJECT_DIR$/components/uma-permission-endpoint/pom.xml" />
+        <option value="dbtable:/851737d8/45981841-2c9a-4631-ae07-f18a67120d49/WSO2CARBON_DB.PUBLIC.IDN_PERMISSION_TICKET" />
+        <option value="$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/dao/SQLQueries.java" />
+        <option value="$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/dao/PermissionTicketDAO.java" />
+        <option value="$PROJECT_DIR$/components/uma-permission-endpoint/src/main/java/org/wso2/carbon/identity/oauth/uma/endpoint/PermissionApiServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -375,21 +620,21 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="UMA_PermissionEndpoint2" />
+              <option name="myItemId" value="uma-permission" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="UMA_PermissionEndpoint2" />
+              <option name="myItemId" value="uma-permission" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="UMA_PermissionEndpoint2" />
+              <option name="myItemId" value="uma-permission" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="UMA_PermissionEndpoint2" />
+              <option name="myItemId" value="uma-permission" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -399,47 +644,103 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="UMA_PermissionEndpoint2" />
+              <option name="myItemId" value="uma-permission" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="UMA_PermissionEndpoint2" />
+              <option name="myItemId" value="uma-permission" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="maven-shared-archive-resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission-service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="UMA_PermissionEndpoint2" />
+              <option name="myItemId" value="uma-permission" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="UMA_PermissionEndpoint2" />
+              <option name="myItemId" value="uma-permission" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UMA_PermissionEndpoint2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UMA_PermissionEndpoint2" />
+              <option name="myItemId" value="uma-permission-service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -454,14 +755,26 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="UMA_PermissionEndpoint2" />
+              <option name="myItemId" value="uma-permission" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="UMA_PermissionEndpoint2" />
+              <option name="myItemId" value="uma-permission" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission-service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -477,33 +790,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="uma" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UMA_PermissionEndpoint2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UMA_PermissionEndpoint2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uma" />
+              <option name="myItemId" value="service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -513,11 +800,19 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="UMA_PermissionEndpoint2" />
+              <option name="myItemId" value="uma-permission" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="UMA_PermissionEndpoint2" />
+              <option name="myItemId" value="uma-permission" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission-service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -533,7 +828,83 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="uma" />
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="internal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -543,11 +914,19 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="UMA_PermissionEndpoint2" />
+              <option name="myItemId" value="uma-permission" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="UMA_PermissionEndpoint2" />
+              <option name="myItemId" value="uma-permission" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission-service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -563,7 +942,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="uma" />
+              <option name="myItemId" value="service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -573,37 +952,243 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="UMA_PermissionEndpoint2" />
+              <option name="myItemId" value="uma-permission" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="UMA_PermissionEndpoint2" />
+              <option name="myItemId" value="uma-permission" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UMA_PermissionEndpoint2" />
+              <option name="myItemId" value="uma-permission-endpoint" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="UMA_PermissionEndpoint2" />
+              <option name="myItemId" value="uma-permission" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="UMA_PermissionEndpoint2" />
+              <option name="myItemId" value="uma-permission" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission-endpoint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission-endpoint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission-endpoint-1.0.0-SNAPSHOT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission-endpoint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission-endpoint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission-endpoint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission-endpoint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="endpoint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission-endpoint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="endpoint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exception" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission-endpoint" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -619,7 +1204,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="UMA_PermissionEndpoint2" />
+              <option name="myItemId" value="endpoint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uma-permission-endpoint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="endpoint" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -629,24 +1248,23 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../UMA_PermissionEndpoint" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../carbon-kernal/carbon-kernel" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="H2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="org.wso2.identity.oauth.uma.dao" />
+      <recent name="org.wso2.identity.oauth.uma.exception" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/identity/uma" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -661,7 +1279,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Remote.debug01">
+    <configuration default="false" name="uma-permission-service-1.0.0-SNAPSHOT.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="JAR_PATH" value="$PROJECT_DIR$/components/uma-permission-service/target/uma-permission-service-1.0.0-SNAPSHOT.jar" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -969,7 +1593,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="UMA_PermissionEndpoint2" />
+      <module name="uma-permission" />
       <envs />
       <method />
     </configuration>
@@ -1049,58 +1673,90 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
+    <configuration default="false" name="debug01" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="5005" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Remote.debug01" />
+      <item index="1" class="java.lang.String" itemvalue="JAR Application.uma-permission-service-1.0.0-SNAPSHOT.jar" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JAR Application.uma-permission-service-1.0.0-SNAPSHOT.jar" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="94a09fd4-6129-47e4-bdbe-6f3510ddcb2f" name="Default" comment="" />
-      <created>1505900191484</created>
+      <changelist id="9e8a574f-40d2-40c8-ac36-b5a8c5e39322" name="Default" comment="" />
+      <created>1506491881022</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1505900191484</updated>
-      <workItem from="1505900194994" duration="2517000" />
-      <workItem from="1505968514767" duration="10530000" />
-      <workItem from="1506053716112" duration="16056000" />
+      <updated>1506491881022</updated>
+      <workItem from="1506491886142" duration="721000" />
+      <workItem from="1506558667918" duration="10058000" />
+      <workItem from="1506578554461" duration="14795000" />
+      <workItem from="1506598967804" duration="2597000" />
+      <workItem from="1506862976053" duration="6236000" />
+      <workItem from="1506872140868" duration="118000" />
+      <workItem from="1506872287768" duration="169000" />
+      <workItem from="1506872493503" duration="308000" />
+      <workItem from="1506872866617" duration="367000" />
+      <workItem from="1506873258598" duration="7635000" />
+      <workItem from="1506918873406" duration="1578000" />
+      <workItem from="1506920861860" duration="2642000" />
+      <workItem from="1506925307504" duration="13870000" />
+      <workItem from="1506988533456" duration="6228000" />
+      <workItem from="1507006752249" duration="10096000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29103000" />
+    <option name="totallyTimeSpent" value="77386000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.04145937" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2311828" sideWeight="0.2564953" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2039801" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31182796" sideWeight="0.45605308" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21171919" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.49806523" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2311828" sideWeight="0.7435047" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2515202" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.4936429" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1115,7 +1771,88 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/internal/PermissionServiceComponent.java</url>
+          <line>18</line>
+          <properties />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components/uma-permission-endpoint/src/main/java/org/wso2/carbon/identity/oauth/uma/endpoint/PermissionApiServiceImpl.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components/uma-permission-endpoint/src/main/java/org/wso2/carbon/identity/oauth/uma/endpoint/PermissionApiServiceImpl.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/dao/PermissionTicketDAO.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/dao/PermissionTicketDAO.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/dao/PermissionTicketDAO.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/dao/PermissionTicketDAO.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components/uma-permission-endpoint/src/main/java/org/wso2/carbon/identity/oauth/uma/endpoint/PermissionApiServiceImpl.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/impl/PermissionServiceImpl.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/impl/PermissionServiceImpl.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components/uma-permission-endpoint/src/main/java/org/wso2/carbon/identity/oauth/uma/endpoint/PermissionApiServiceImpl.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components/uma-permission-endpoint/src/main/java/org/wso2/carbon/identity/oauth/uma/endpoint/PermissionApiServiceImpl.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/dao/PermissionTicketDAO.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="44" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1123,495 +1860,434 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2682">
-          <caret line="149" column="20" lean-forward="false" selection-start-line="149" selection-start-column="20" selection-end-line="149" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/identity/oauth/uma/dao/PermissionTicketDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="24" column="89" lean-forward="false" selection-start-line="24" selection-start-column="89" selection-end-line="24" selection-end-column="89" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/identity/oauth/uma/model/PermissionTicket.java">
+    <entry file="file://$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/dao/PermissionTicketDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/identity/oauth/uma/exception/PermissionAPIException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="e#195#196#0" expanded="false" />
-            <element signature="e#225#226#0" expanded="false" />
-            <element signature="e#299#300#0" expanded="false" />
-            <element signature="e#340#341#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/identity/oauth/uma/dao/SQLQueries.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/04961407-0f66-4982-8559-9ae0049c2e0a/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/identity/oauth/uma/PermissionApiServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/permission_endpoint.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="43" column="12" lean-forward="false" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/10e34a93/04961407-0f66-4982-8559-9ae0049c2e0a/WSO2CARBON_DB.PUBLIC.IDN_OAUTH2_ACCESS_TOKEN">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1368">
-          <caret line="76" column="56" lean-forward="false" selection-start-line="76" selection-start-column="56" selection-end-line="76" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/identity/oauth/uma/dao/PermissionTicketDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/identity/oauth/uma/dao/SQLQueries.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/permission_endpoint.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="43" column="12" lean-forward="false" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/identity/oauth/uma/PermissionApiServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/permission_endpoint.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="43" column="12" lean-forward="false" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2682">
-          <caret line="149" column="20" lean-forward="false" selection-start-line="149" selection-start-column="20" selection-end-line="149" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/identity/oauth/uma/dao/ResourcePermissionDAO.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/identity/oauth/uma/PermissionApiServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/04961407-0f66-4982-8559-9ae0049c2e0a/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gen/java/UMA_PermissionEndpoint2/dto/ResourceDetailsDTO.java">
+    <entry file="file://$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/PermissionService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <caret line="14" column="132" lean-forward="false" selection-start-line="14" selection-start-column="132" selection-end-line="14" selection-end-column="132" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/10e34a93/04961407-0f66-4982-8559-9ae0049c2e0a/WSO2CARBON_DB.PUBLIC.IDN_CLAIM_DIALECT">
+    <entry file="file://$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/impl/PermissionServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="162">
+          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/model/Resource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="26" column="42" lean-forward="false" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/10e34a93/04961407-0f66-4982-8559-9ae0049c2e0a/WSO2CARBON_DB.PUBLIC.IDN_CLAIM_MAPPED_ATTRIBUTE">
+    <entry file="file://$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/model/ResourceScope.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+        <state relative-caret-position="126">
+          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/10e34a93/04961407-0f66-4982-8559-9ae0049c2e0a/WSO2CARBON_DB.PUBLIC.IDN_OAUTH1A_REQUEST_TOKEN">
+    <entry file="file://$PROJECT_DIR$/components/uma-permission-endpoint/src/gen/java/org/wso2/carbon/identity/oauth/uma/endpoint/dto/ResourceDetailsInnerDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+        <state relative-caret-position="648">
+          <caret line="50" column="2" lean-forward="false" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/10e34a93/04961407-0f66-4982-8559-9ae0049c2e0a/WSO2CARBON_DB.PUBLIC.IDN_OAUTH1A_ACCESS_TOKEN">
+    <entry file="file://$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/internal/PermissionServiceComponent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/10e34a93/04961407-0f66-4982-8559-9ae0049c2e0a/WSO2CARBON_DB.PUBLIC.IDN_IDENTITY_META_DATA">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/10e34a93/04961407-0f66-4982-8559-9ae0049c2e0a/WSO2CARBON_DB.PUBLIC.IDN_CLAIM_PROPERTY">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/10e34a93/04961407-0f66-4982-8559-9ae0049c2e0a/WSO2CARBON_DB.PUBLIC.IDN_CLAIM">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/10e34a93/04961407-0f66-4982-8559-9ae0049c2e0a/WSO2CARBON_DB.PUBLIC.IDN_AUTH_SESSION_STORE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/10e34a93/04961407-0f66-4982-8559-9ae0049c2e0a/WSO2CARBON_DB.PUBLIC.IDN_ASSOCIATED_ID">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/10e34a93/04961407-0f66-4982-8559-9ae0049c2e0a/WSO2CARBON_DB.PUBLIC.FIDO_DEVICE_STORE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/10e34a93/04961407-0f66-4982-8559-9ae0049c2e0a/WSO2CARBON_DB.PUBLIC.IDN_BASE_TABLE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/10e34a93/04961407-0f66-4982-8559-9ae0049c2e0a/WSO2CARBON_DB.PUBLIC.IDN_CLAIM_MAPPING">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="45" lean-forward="false" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/10e34a93/04961407-0f66-4982-8559-9ae0049c2e0a/WSO2CARBON_DB.PUBLIC.IDN_OAUTH2_ACCESS_TOKEN">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="36" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/10e34a93/04961407-0f66-4982-8559-9ae0049c2e0a/WSO2CARBON_DB.PUBLIC.IDN_OAUTH2_SCOPE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="142" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="142" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/identity/oauth/uma/model/PermissionTicket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        <state relative-caret-position="90">
+          <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
           <folding>
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#693#694#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-            <element signature="e#773#774#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#887#888#0" expanded="true" />
-            <element signature="e#920#921#0" expanded="true" />
-            <element signature="e#949#950#0" expanded="true" />
-            <element signature="e#993#994#0" expanded="true" />
-            <element signature="e#1029#1030#0" expanded="true" />
-            <element signature="e#1070#1071#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-            <element signature="e#1161#1162#0" expanded="true" />
-            <element signature="e#1207#1208#0" expanded="true" />
-            <element signature="e#1246#1247#0" expanded="true" />
-            <element signature="e#1283#1284#0" expanded="true" />
-            <element signature="e#1341#1342#0" expanded="true" />
-            <element signature="e#1393#1394#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/identity/oauth/uma/model/PermissionTicketTableCreation.java">
+    <entry file="file://$PROJECT_DIR$/components/uma-permission-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="35" column="5" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        <state relative-caret-position="756">
+          <caret line="42" column="29" lean-forward="true" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/exception/PermissionAPIException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/exception/PermissionTicketDAOException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/uma-permission-endpoint/src/main/resources/permission_endpoint.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/45981841-2c9a-4631-ae07-f18a67120d49/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/uma-permission-endpoint/src/main/webapp/WEB-INF/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/uma-permission-endpoint/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/wso2/wso2/1/wso2-1.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1296">
+          <caret line="72" column="22" lean-forward="true" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/sql/Statement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4895">
+          <caret line="715" column="14" lean-forward="false" selection-start-line="715" selection-start-column="14" selection-end-line="715" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/uma-permission-endpoint/src/gen/java/org/wso2/carbon/identity/oauth/uma/endpoint/factories/PermissionApiServiceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="59" lean-forward="false" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/uma-permission-endpoint/src/main/java/org/wso2/carbon/identity/oauth/uma/endpoint/internal/PermissionEndpointComponent.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/wso2/carbon/org.wso2.carbon.utils/4.4.11/org.wso2.carbon.utils-4.4.11.jar!/org/wso2/carbon/context/PrivilegedCarbonContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="234" column="26" lean-forward="false" selection-start-line="234" selection-start-column="12" selection-end-line="234" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/dao/SQLQueries.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/cxf/cxf-core/3.1.4/cxf-core-3.1.4.jar!/org/apache/cxf/service/invoker/AbstractInvoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2124">
+          <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/851737d8/45981841-2c9a-4631-ae07-f18a67120d49/WSO2CARBON_DB.PUBLIC.IDN_OAUTH2_SCOPE" />
+    <entry file="dbDummy://dbtable:/851737d8/45981841-2c9a-4631-ae07-f18a67120d49/WSO2CARBON_DB.PUBLIC.IDN_PERMISSION_TICKET" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/985a5a0d-83c9-4966-ac69-3c99d81a0e15/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/851737d8/985a5a0d-83c9-4966-ac69-3c99d81a0e15/WSO2CARBON_DB.PUBLIC.IDN_RESOURCE_SCOPE">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/851737d8/985a5a0d-83c9-4966-ac69-3c99d81a0e15/WSO2CARBON_DB.PUBLIC.IDN_RESOURCE">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/851737d8/985a5a0d-83c9-4966-ac69-3c99d81a0e15/WSO2CARBON_DB.PUBLIC.IDN_PERMISSION_TICKET">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/exception/PermissionAPIException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/exception/PermissionTicketDAOException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/uma-permission-endpoint/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/uma-permission-endpoint/src/main/resources/uma_tables.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/uma-permission-endpoint/src/main/java/org/wso2/carbon/identity/oauth/uma/endpoint/exception/PermissionEndpointException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/uma-permission-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1692">
+          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/uma-permission-endpoint/src/gen/java/org/wso2/carbon/identity/oauth/uma/endpoint/ApiResponseMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/dao/PermissionTicketDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/impl/PermissionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/model/PermissionTicket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/model/PermissionTicketImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="42" column="28" lean-forward="false" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#927#928#0" expanded="false" />
+            <element signature="e#979#980#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gen/java/UMA_PermissionEndpoint2/PermissionApiService.java">
+    <entry file="file://$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/model/Resource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="252">
+          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding>
+            <element signature="e#395#396#0" expanded="false" />
+            <element signature="e#439#440#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/model/ResourceScope.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/identity/oauth/uma/dao/SQLQueries.java">
+    <entry file="file://$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/PermissionService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="53" lean-forward="false" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+        <state relative-caret-position="162">
+          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/uma-permission-endpoint/src/main/java/org/wso2/carbon/identity/oauth/uma/endpoint/PermissionApiServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gen/java/UMA_PermissionEndpoint2/ApiResponseMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="40" column="31" lean-forward="false" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gen/java/UMA_PermissionEndpoint2/ApiException.java">
+    <entry file="file://$PROJECT_DIR$/components/uma-permission-endpoint/src/gen/java/org/wso2/carbon/identity/oauth/uma/endpoint/ApiException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
-          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="25" />
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gen/java/UMA_PermissionEndpoint2/dto/PTSuccessDTO.java">
+    <entry file="file://$PROJECT_DIR$/components/uma-permission-endpoint/src/gen/java/org/wso2/carbon/identity/oauth/uma/endpoint/PermissionApiService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gen/java/UMA_PermissionEndpoint2/dto/PTFailDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gen/java/UMA_PermissionEndpoint2/PermissionApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/identity/oauth/uma/dao/PermissionTicketDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="72">
+          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/identity/oauth/uma/exception/PermissionAPIException.java">
+    <entry file="file://$PROJECT_DIR$/components/uma-permission-endpoint/src/gen/java/org/wso2/carbon/identity/oauth/uma/endpoint/PermissionApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="101">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/uma-permission-endpoint/src/gen/java/org/wso2/carbon/identity/oauth/uma/endpoint/dto/PTFailDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#442#443#0" expanded="false" />
+            <element signature="e#464#465#0" expanded="false" />
+            <element signature="e#503#504#0" expanded="false" />
+            <element signature="e#531#532#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/uma-permission-endpoint/src/gen/java/org/wso2/carbon/identity/oauth/uma/endpoint/dto/PTSuccessDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#478#479#0" expanded="false" />
+            <element signature="e#501#502#0" expanded="false" />
+            <element signature="e#542#543#0" expanded="false" />
+            <element signature="e#572#573#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/uma-permission-endpoint/src/gen/java/org/wso2/carbon/identity/oauth/uma/endpoint/dto/ResourceDetailsDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/uma-permission-endpoint/src/gen/java/org/wso2/carbon/identity/oauth/uma/endpoint/dto/ResourceDetailsInnerDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="39" column="19" lean-forward="false" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#376#384#0" expanded="false" />
+            <element signature="e#1153#1154#0" expanded="false" />
+            <element signature="e#1185#1186#0" expanded="false" />
+            <element signature="e#1250#1251#0" expanded="false" />
+            <element signature="e#1298#1299#0" expanded="false" />
+            <element signature="e#1810#1811#0" expanded="false" />
+            <element signature="e#1838#1839#0" expanded="false" />
+            <element signature="e#1889#1890#0" expanded="false" />
+            <element signature="e#1929#1930#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/uma-permission-service/src/main/java/org/wso2/carbon/identity/oauth/uma/service/internal/PermissionServiceComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="11" column="60" lean-forward="false" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/UMA_PermissionEndpoint2.iml" filepath="$PROJECT_DIR$/UMA_PermissionEndpoint2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/uma-permission.iml" filepath="$PROJECT_DIR$/.idea/uma-permission.iml" />
+      <module fileurl="file://$PROJECT_DIR$/components/uma-permission-endpoint/uma-permission-endpoint.iml" filepath="$PROJECT_DIR$/components/uma-permission-endpoint/uma-permission-endpoint.iml" />
+      <module fileurl="file://$PROJECT_DIR$/components/uma-permission-service/uma-permission-service.iml" filepath="$PROJECT_DIR$/components/uma-permission-service/uma-permission-service.iml" />
     </modules>
   </component>
 </project>
